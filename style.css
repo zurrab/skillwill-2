@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./fonts/Ubuntu-Regular.ttf);
+}
+.header {
+  background-color: #ffffff;
+  display: flex;
+  /* ამ შემთხვევაში ერთი მარჯვნიკ ბოლოში წავა მეორე მარრცხნივ ბოლოში */
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  color: #957554;
+  font-size: 24px;
+  width: 653px;
+  height: 28px;
+  margin-top: 54px;
+  margin-left: 680px;
+}
+
+.href {
+  text-decoration: none;
+  color: #957554;
+}
+
+.main {
+  background-image: url(hDbCjHNdF48.png);
+  /* ბექგრაუნდის გაცენტრვა */
+  background-position: center;
+  /* ბექგრაუნდის გამეორების გაქრობა */
+  background-repeat: no-repeat;
+  /* ბექგრაუნდის მთლიან ეკრანზე გაშვება */
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+  /* ამის საშუალებით გავცენტრე შიდა ელემენტები */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "Ubuntu";
+  font-size: 80px;
+  font-weight: 700;
+  /* ეს არ სჭირდება ზემოთ მთავარ კონტეინერს შეგიძლია flex გაუწერო რო გაიცენტროს */
+  /* margin-left: 257px; */
+  /* padding-top: 242px; */
+  color: #ffffff;
+  display: flex;
+}
+
+.text-2 {
+  font-family: "Ubuntu";
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+}
+
+.button {
+  width: 371px;
+  height: 76px;
+  /* ესენი არ სჭირდება top არ მუშაობს ამ შემთხვევაში position ის გარეშე */
+  /* top: 603.76px; */
+  /* left: 522.26px; */
+  /* margin-left: 520px; */
+  margin-top: 58px;
+  background-color: #dfaa5b;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.second-main {
+  /* ამით გავცენტრე ეს კონკრეტული ტექსტი  */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.text-3 {
+  font-family: "Ubuntu";
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: center;
+  margin-top: 80px;
+  color: #957554;
+}
+
+.first-cont {
+  width: 630px;
+  height: 500px;
+  border-radius: 10px;
+  background-image: url(FqqiAvJejto.png);
+
+  /* margin-left: 60px; */
+  /* ეს ამოიშალა */
+}
+.second-cont {
+  width: 630px;
+  height: 500px;
+  border-radius: 10px;
+  background-image: url(GqbU78bdJFM.png);
+
+  
+}
+.third-cont{
+  width: 630px;
+  height: 500px;
+  border-radius: 10px;
+  background-image: url(w1RE0lBbREo.png);
+}
+.fourth-cont{
+  width: 630px;
+  height: 500px;
+  border-radius: 10px;
+  background-image: url(aRT5UCf2MYY.png);
+}
+
+
+.text-4 {
+  font-family: "Ubuntu";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  padding-top: 302px;
+  text-align: center;
+}
+
+.button-2 {
+  width: 244px;
+  height: 76px;
+  top: 1474px;
+  left: 255px;
+  background-color: #dfaa5b;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 195px;
+  margin-top: 19px;
+}
+
+.text-5 {
+  font-family: "Ubuntu";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.two-cont {
+  /* აქ გავუწერე გაცენტრვა რადგან margin ები არ არის რეკომენდირებული გაცენტრვისთვის */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer {
+  width: 100%;
+  height: 459px;
+  background-color: #111111;
+
+}
+
+.last-text {
+  font-family: "Ubuntu";
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #957554;
+  text-align: center;
+  margin-top: 52px;
+
+}
+
+.button-3 {
+  width: 418px;
+  height: 76px;
+  background-color: #dfaa5b;
+  border-radius: 20px;
+  margin-top: 19px;
+  margin-left: 511px;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.footer {
+  flex-direction: row;
+  gap: 200px;
+  display: flex;
+  margin-top: 62px;
+  width: 100%;
+  height: 469px;
+  background: #111111;
+}
+
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 61px;
+  margin-left: 55px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+
+.footermenu {
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 61px;
+  margin-left: 250px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 50px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  margin-top: 61px;
+}
+
+.inbutton1 {
+  width: 371px;
+  height: 75px;
+
+  padding-left: 27px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+
+  color: rgba(0, 0, 0, 0.5);
+
+  mix-blend-mode: normal;
+}
+
+.inbutton2 {
+  width: 371px;
+  height: 75px;
+  border: none;
+  cursor: pointer;
+  background: #DFAA5B;
+  border-radius: 10px;
+  margin-top: 24px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+
+  color: rgba(0, 0, 0, 0.5);
+
+  mix-blend-mode: normal;
+}
+
+.box1>img {
+  margin-top: 51px;
+  margin-left: 61px;
+}
